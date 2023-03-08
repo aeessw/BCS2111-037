@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css?family=Knewave");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,600,800");
+* {
+    transition: 0.4s ease;
+}
+body {
+background-color: #ffffff;
+width: 98%;
+max-width: 1900px;
+min-width: 320px;
+margin: 30px auto;
+font-family: "Raleway";
+font-size: 22px;
+line-height: 28px;
+letter-spacing: 4px;
+}
+.nav-bar {
+position: relative;
+width: 100%;
+max-width: 1000px;
+left: 53.7%;
+transform: translateX(-50%);
+overflow: hidden;
+}
+.logo a{
+display: inline-flex;
+position: relative;
+width: 100%;
+max-width: 270px;
+height: 160px;
+}
+.rela-block {
+display: block;
+position: relative;
+overflow: hidden;
+text-align: center;
+}
+.content-container {
+width: 95%;
+max-width: 1900px;
+min-width: 320px;
+margin: 0px auto;
+background-color: #fff;
+box-shadow: 8px 8px 20px 5px rgba(20,20,20,0.4);
+font-family: "Raleway";
+font-size: 22px;
+line-height: 28px;
+letter-spacing: 4px;
+}  
+.wrapperPos{
+display: flex;
+margin-top: -65px;
+}
+.sushi{
+position: relative;
+left: 4px;
+height: 300px;
+width: 1100px;
+margin: 50px auto;
+border-radius: 7px 7px 7px 7px;
+-webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.product-img {
+position: relative;
+float: left;
+height: 300px;
+width: 300px;
+}
+.product-img img {
+border-radius: 7px 0 0 7px;
+}
+.product-info {
+float: left;
+height: 30px;
+width: 300px;
+background-color: #ffffff;
+}
+.product-text {
+height: 300px;
+width: 600px;
+padding-left: 150px;
+}
+.address{
+display: flex;
+}
+.address img{
+position: relative;
+width: 40px;
+height: 40px;
+top: -49px;
+}
+.address img{
+position: relative;
+width: 40px;
+height: 40px;
+top: -49px;
+}
+.address p{
+position: relative;
+top: -40px;
+font-weight: lighter;
+color: #474747;
+}
+.address1{
+display: flex;
+}
+.address1 img{
+position: relative;
+width: 40px;
+height: 40px;
+top: -19px;
+}
+.address1 p{
+position: relative;
+top: -10px;
+font-weight: lighter;
+color: #474747;
+}
+.product-text h1 {
+font-family: "Raleway";
+margin: 0 0 0 0px;
+padding-top: 10px;
+font-size: 30px;
+color: #474747;
+padding-bottom: 18px;
+margin-left: 10px;
+}
+.product-text p {
+height: 125px;
+margin: 0 0 0 10px;
+color: #8d8d8d;
+line-height: 1.3em;
+font-size: 15px;
+font-weight: 800;
+padding-left: 10px;
+margin-top: 9px;
+}
+.product-price-btn{
+position: relative;
+top: -110px;
+}
+.product-price-btn p {
+display: inline-block;
+position: absolute;
+margin: 0 0 0 38px;
+font-size: 28px;
+color: #474747;
+}
+.product-price-btn button {
+float: right;
+display: inline-block;
+height: 30px;
+width: 176px;
+margin: 0 210px 0 10px;
+box-sizing: border-box;
+border: transparent;
+border-radius: 60px;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+background-color: #ec4141;
+cursor: pointer;
+outline: none;
+}
+
+.product-price-btn button:hover {
+background-color: #ff0000;
+}
+.hyatt-price-btn{
+position: relative;
+top: -65px;
+left: 455px;
+}
+.hyatt-price-btn p {
+display: inline-block;
+position: absolute;
+margin: 0 0 0 38px;
+font-size: 28px;
+color: #474747;
+}
+.hyatt-price-btn button {
+float: right;
+display: inline-block;
+height: 30px;
+width: 176px;
+margin: 0 210px 0 10px;
+box-sizing: border-box;
+border: transparent;
+border-radius: 60px;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+background-color: #ec4141;
+cursor: pointer;
+outline: none;
+}
+.hyatt-price-btn button:hover {
+background-color: #ff0000;
+}
+.katsu {
+position: relative;
+left: -10px;
+height: 300px;
+width: 620px;
+margin: 50px auto;
+border-radius: 7px 7px 7px 7px;
+/* VIA CSS MATIC https://goo.gl/cIbnS */
+-webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.katsu-text h1 {
+font-family: "Raleway";
+margin: 0 0 0 24px;
+padding-top: 40px;
+font-size: 30px;
+color: #474747;
+padding-bottom: 18px
+}
+.katsu-text p {
+height: 125px;
+margin: 0 0 0 -10px;
+color: #8d8d8d;
+line-height: 1.3em;
+font-size: 15px;
+font-weight: 800;
+padding-left: 20px;
+}
+.katsu-price-btn{
+position: relative;
+top: -20px;
+}
+.katsu-price-btn p {
+display: inline-block;
+position: absolute;
+margin: 0 0 0 38px;
+font-size: 28px;
+color: #474747;
+}
+.katsu-price-btn button {
+float: right;
+display: inline-block;
+height: 50px;
+width: 176px;
+margin: 0 49px 0 16px;
+box-sizing: border-box;
+border: transparent;
+border-radius: 60px;
+font-family: 'Raleway', sans-serif;
+font-size: 14px;
+font-weight: 800;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+background-color: #ec4141;
+cursor: pointer;
+outline: none;
+}
+.katsu-price-btn button:hover {
+background-color: #ff0000;
+}
+.karaage-text h1 {
+font-family: "Raleway";
+margin: 0 0 0 24px;
+padding-top: 40px;
+font-size: 30px;
+color: #474747;
+padding-bottom: 18px;
+}
+.karaage-text p {
+height: 125px;
+margin: 0 0 0 -10px;
+color: #8d8d8d;
+line-height: 1.3em;
+font-size: 15px;
+font-weight: 800;
+padding-left: 10px;
+}
+.karaage-text {
+height: 300px;
+width: 300px;
+padding-left: 10px;
+}
+.wrapperPos1{
+display: flex;
+top: -100px;
+}
+.sushi1{
+position: relative;
+left: 4px;
+height: 300px;
+width: 1100px;
+margin: 10px auto;
+border-radius: 7px 7px 7px 7px;
+-webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.wrapperPos2{
+display: flex;
+top: -100px;
+}
+.sushi2{
+position: relative;
+left: 4px;
+height: 300px;
+width: 1100px;
+margin: 55px auto;
+border-radius: 7px 7px 7px 7px;
+-webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.wrapperPos3{
+display: flex;
+top: -70px;
+}
+.sushi3{
+position: relative;
+left: 4px;
+height: 300px;
+width: 1100px;
+margin: 5px auto;
+margin-bottom: 50px;
+border-radius: 7px 7px 7px 7px;
+-webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>japan</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="content-container">
+        <div class="rela-block top-section">
+            <div class="nav-bar">
+                <div class="logo"><img src="https://img.freepik.com/premium-vector/japan-logo-vector-illustrations-suitable-your-logo_509354-327.jpg" alt="japan"></div>
+                <div class="los-links">
+                    <a class="nav-link" href="#destinations">DESTINATIONS</a>
+                    <a class="nav-link" href="#places">PLACES TO STAY</a>
+                    <a class="nav-link" href="#food">FOOD</a>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="slide first">
+                        <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2019/03/yukata-kyoto_Satoshi-K_iStock-1171807849.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="https://skiasia.com/wp-content/uploads/2022/09/japan-travel-october.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="https://www.telegraph.co.uk/content/dam/travel/2022/05/24/TELEMMGLPICT000297290075_trans_NvBQzQNjv4BqDBDshJwigawdHG3IUeX8ASUPYY8COrwir8AUNWN1pQU.jpeg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="https://www.readersdigest.ca/wp-content/uploads/2019/06/japan-travel-guide-what-you-need-to-know.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="navigation-auto">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+
+                <div class="front-text"> 
+                    <h1>WELCOME TO </h1><span>JAPAN !</span>
+                </div>
+
+                <div class="front-text1"> 
+                    <h1>ようこそ日本へ！</h1>
+                </div>
+
+                <script type="text/javascript">
+                    var counter = 1;
+                    setInterval(function(){
+                        document.getElementById('radio' + counter).checked = true;
+                        counter++;
+                        if(counter > 4){
+                            counter = 1;
+                        }
+                    }, 3000);
+                </script>
+            </div>
+            
+        </div>
+
+        <div class="bottom-section">
+            <div id="weather-data">
+                <div class="sliderh1">
+                    <h1>Japan,JP</h1>
+                </div>
+                <script src="app.js"></script>
+            </div>
+            <div class="currency">
+                <div class="sliderh2">
+                    <h1>Currency</h1>
+                    <br>
+                    <table>
+                        <tr>
+                          <td><img src="https://www.malaysia-traveller.com/images/flag-of-Malaysia.jpg"></td>
+                          <td rowspan=3><img src="https://cdn.pixabay.com/photo/2016/04/07/19/11/arrow-1314515_960_720.png"></td>
+                          <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Japan_%28bordered%29.svg/2560px-Flag_of_Japan_%28bordered%29.svg.png"></td>
+                        </tr>
+                        <tr>
+                          <td>MYR</td>
+                          <td>JPY</td>
+                        </tr>
+                        <tr>
+                          <td>RM1</td>
+                          <td>¥30.35</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="season">
+                <div class="sliderh2">
+                    <h1>Season In Japan</h1>
+                    <table>
+                        <tr>
+                          <td>Spring</td>
+                          <td>-</td>
+                          <td>March to May</td>
+                        </tr>
+                        <tr>
+                          <td>Summer</td>
+                          <td>-</td>
+                          <td>June to August</td>
+                        </tr>
+                        <tr>
+                          <td>Autumn</td>
+                          <td>-</td>
+                          <td>September to November</td>
+                        </tr>
+                        <tr>
+                          <td>Winter</td>
+                          <td>-</td>
+                          <td>December to February</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="time">
+                <div class="sliderh2">
+                    <h1>Current Time</h1>
+                    <hr>
+                    <br>
+                    <p id="japan-time"></p>
+
+                    <script>
+                    // set timezone to Japan
+                    const japanTz = 'Asia/Tokyo';
+
+                    // get current time in Japan
+                    const japanTime = new Date().toLocaleString('en-US', { timeZone: japanTz });
+
+                    // display time on webpage
+                    document.getElementById('japan-time').textContent = japanTime;
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="rela-block picture-section">
+            <div class="rela-block picture-box-container left">
+                <div class="picture-box-picture"></div>
+                <div class="picture-box-text" id="destinations">
+                    <div class="text-container">
+                        <h2 class="header">DESTINATIONS</h2>
+                        <p class="rela-block text">From family-friendly fun, solo adventures to couple activities and more. Get inspiration for things to do from the weekdays to the weekends. </p>
+                        <a href="destinations.html"><button class="btn draw-border">Explore here</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rela-block picture-box-container right">
+                <div class="picture-box-picture"></div>
+                <div class="picture-box-text" id="places">
+                    <div class="text-container">
+                        <h2 class="header">PLACES TO STAY</h2>
+                        <p class="rela-block text">The best place where to stay in Japan is Tokyo. The capital city is filled with never-ending skyscrapers and fabulous attractions. But there are many more places for people who want to visit its temples or chill on the beaches.</p>
+                        <a href="places.html"><button class="btn draw-border">Explore here</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rela-block picture-box-container left">
+                <div class="picture-box-picture"></div>
+                <div class="picture-box-text" id="food">
+                    <div class="text-container">
+                        <h2 class="header">FOOD</h2>
+                        <p class="rela-block text">Japanese cuisine is world-famous, but there is so much food in Japan to try besides sushi! Of course, many of us also know of sashimi, tempura, and ramen. Yet Japanese food culture is much richer than that.</p>
+                        <a href="meal.html"><button class="btn draw-border">Explore here</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rela-block full-picture-box"></div>
+        </div>
+    </div>
+</body>
+</html>

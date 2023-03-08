@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>japan</title>
+    <link rel="stylesheet" href="meal.css">
+</head>
+<body>
+    <div class="content-container">
+        <div class="rela-block top-section">
+            <div class="nav-bar">
+                <div class="logo"><a href="index.html"><img src="https://img.freepik.com/premium-vector/japan-logo-vector-illustrations-suitable-your-logo_509354-327.jpg" alt="japan"></a></div>
+            </div>
+            <hr>
+            <label for="meal">Select a meal:</label>
+            <select name="meal" id="meal">
+                <option value="">Select a meal</option>
+                <option value="sushi">Sushi</option>
+                <option value="yaki udon">Yaki Udon</option>
+                <option value="chicken karaage">Chicken Karaage</option>
+                <option value="honey teriyaki salmon">Honey Teriyaki Salmon</option>
+                <option value="teriyaki chicken casserole">Teriyaki Chicken Casserole</option>
+            </select>
+            <br>
+            <div id="meal-details">
+                <h3 id="meal-name"></h3>
+                <img id="meal-image" src="" >
+                <h4>Ingredients:</h4>
+                <p id="meal-ingredients"></p>
+                <br>
+                <h5>Instructions:</h5>
+                <p id="meal-instructions"></p>
+            </div>
+            <script src="meal.js"></script>        
+        </div>
+    </div>
+</body>
+</html>

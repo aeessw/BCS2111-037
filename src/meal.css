@@ -1,0 +1,102 @@
+    @import url("https://fonts.googleapis.com/css?family=Knewave");
+    @import url("https://fonts.googleapis.com/css?family=Raleway:300,600,800");
+    * {
+        transition: 0.4s ease;
+    }
+    body {
+    background-color: #ffffff;
+    width: 98%;
+    max-width: 1900px;
+    min-width: 320px;
+    margin: 30px auto;
+    font-family: "Raleway";
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 4px;
+    }
+    .nav-bar {
+    position: relative;
+    width: 100%;
+    max-width: 1250px;
+    left: 23%;
+    transform: translateX(-50%);
+    overflow: hidden;
+    }
+    .logo a{
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    max-width: 270px;
+    height: 160px;
+    }
+    .rela-block {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    }
+    .content-container {
+    width: 95%;
+    max-width: 1900px;
+    min-width: 320px;
+    margin: 0px auto;
+    background-color: #fff;
+    box-shadow: 8px 8px 20px 5px rgba(20,20,20,0.4);
+    font-family: "Raleway";
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 4px;
+    }  
+    /* css for dropdown */
+    #ingredient-list{
+    font-size: 15px;
+    }
+    label{
+    position: relative;
+    top: -120px;
+    left: -50px;
+    font-weight: bold;
+    }
+    select{
+    position: relative;
+    font-size: 16px;
+    padding: 5px;
+    top: -120px;
+    left: -50px;
+    font-weight: bold;
+    }
+    #meal-details{
+    position: relative;
+    top: -80px;
+    }
+    hr{
+    position: relative;
+    top: -30px;
+    }
+    #meal-details img{
+    width: 340px;
+    float: center;
+    }
+    #meal-name{
+    float: center;
+    }
+    h4{
+    font-size: 25px;
+    float: center;
+    }
+    #meal-ingredients{
+    float: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 0.8em;
+    }
+    h5{
+    font-size: 25px;
+    float: center;
+    }
+    #meal-instructions{
+    padding-left: 130px;
+    padding-right: 130px;
+    font-size: 15px;
+    font-weight: 600;
+    }

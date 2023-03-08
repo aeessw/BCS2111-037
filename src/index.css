@@ -1,0 +1,537 @@
+@import url("https://fonts.googleapis.com/css?family=Knewave");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,600,800");
+* {
+  transition: 0.4s ease;
+}
+body {
+  background-color: #ffffff;
+  width: 98%;
+  max-width: 1900px;
+  min-width: 320px;
+  margin: 20px auto;
+  font-family: "Raleway";
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 4px;
+}
+.rela-block {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.content-container {
+  width: 95%;
+  max-width: 1900px;
+  min-width: 320px;
+  margin: 0px auto;
+  background-color: #fff;
+  box-shadow: 8px 8px 20px 5px rgba(20,20,20,0.4);
+  font-family: "Raleway";
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 4px;
+}
+.top-section {
+  height: 730px;
+  background: url("https://moderndaygypsyblog.files.wordpress.com/2014/12/photodune-2487584-white-wood-background-m.jpg") no-repeat center;
+}
+.nav-bar {
+  position: absolute;
+  width: 100%;
+  max-width: 1250px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+.logo {
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+  max-width: 270px;
+  height: 160px;
+  top: -5px;
+  left: -190px;
+}
+.los-links {
+  display: inline-block;
+  position: relative;
+  float: right;
+  text-transform: uppercase;
+  padding: 45px 20px;
+}
+.nav-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 15px 10px;
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  transition: 0.4s ease, padding 0.3s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 49%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 71%;
+  background-color: #ff0000;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.nav-link:nth-child(1)::before {
+  width: 80%;
+}
+.nav-link:nth-child(4)::before {
+  width: 76%;
+}
+.nav-link:hover::before {
+  opacity: 5;
+  bottom: 2px;
+}
+.picture-box-container {
+  min-height: 500px;
+}
+.picture-box-container.left .picture-box-text,
+.picture-box-container.right .picture-box-picture {
+  float: left;
+}
+.picture-box-container.left .picture-box-picture,
+.picture-box-container.right .picture-box-text {
+  float: right;
+}
+.picture-box-container:nth-child(1) .header {
+  font-size: 42px;
+  line-height: 50px;
+}
+.picture-box-container:nth-child(1) .picture-box-picture {
+  background: url("https://travellersworldwide.com/wp-content/uploads/2022/05/shutterstock_756354574.png") no-repeat center;
+}
+.picture-box-container:nth-child(2) .picture-box-picture {
+  background: url("https://www.neverendingvoyage.com/wp-content/uploads/2011/11/mt-fuji-japan-accommodation.jpg") no-repeat center;
+}
+.picture-box-container:nth-child(3) .picture-box-picture {
+  background: url("https://fs.buttercms.com/resize=height:600/quality=v:80/auto_image/compress/xTaJNbnXRN6ggbBvWMFt") no-repeat center;
+}
+.picture-box-text {
+  position: relative;
+  min-height: 500px;
+  width: 40%;
+  background-color: #bbb;
+  background: url("https://images.pexels.com/photos/1843717/pexels-photo-1843717.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load") no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+.picture-box-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.65);
+}
+.text-container {
+  position: absolute;
+  width: 90%;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.text-container span {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 3px;
+  font-weight: 800;
+  color: rgba(255, 0, 0, 0.9);
+}
+.header {
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  font-size: 29px;
+  line-height: 42px;
+  letter-spacing: 2px;
+  font-family: "Raleway";
+  font-weight: 800;
+  transition: 0.3s ease;
+}
+.header::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  height: 8px;
+  width: 36px;
+  background-color: rgba(255, 0, 0, 0.7);
+}
+.text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.picture-box-picture {
+  position: relative;
+  min-height: 500px;
+  width: 60%;
+  background-size: cover !important;
+}
+.full-picture-box {
+  height: 500px;
+  background: url("https://images.unsplash.com/photo-1548148870-adbf75452257?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat center;
+  background-size: cover;
+}
+/*scc untuk kat informative data*/
+.bottom-section {
+  display: flex;
+  border: 1px solid rgb(242, 242, 242);
+  min-height: 350px;
+  background-color: #f1f1f1;
+  background-size: 800px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.footer-text {
+  position: absolute;
+  width: 100%;
+  max-width: 200px;
+  top: 200px;
+  left: 70px;
+  text-align: left;
+}
+.footer-text .text {
+  font-size: 13px;
+  font-weight: 800;
+  margin: 0;
+}
+@media screen and (max-width: 960px) {
+  .nav-bar .logo {
+    left: 50%;
+    transform: translateX(-50%) rotate(-5deg);
+  }
+  .nav-bar .logo:hover {
+    transform: translateX(-50%) rotate(-8deg) scale(1.15);
+    transition: 0.3s cubic-bezier(0.3, 0.2, 0, 2);
+  }
+  .los-links {
+    padding: 150px 0 15px;
+    width: 100%;
+  }
+  .top-center-image {
+    top: 64%;
+  }
+  .picture-box-text {
+    width: 100%;
+    min-height: 300px;
+  }
+  .picture-box-picture {
+    min-height: 250px;
+    width: 100%;
+  }
+  .text-container {
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    padding: 30px 0;
+    transform: scale(1);
+  }
+  .bottom-section .logo,
+  .bottom-section .footer-text {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .bottom-section .logo:hover {
+    transform: translateX(-50%) scale(1.2);
+  }
+}
+@media screen and (max-width: 700px) {
+  .full-picture-box {
+    height: 300px;
+  }
+  .content-container {
+    margin: 50px auto 60px;
+  }
+}
+@-webkit-keyframes bob {
+  to {
+    bottom: 10px;
+  }
+}
+@keyframes bob {
+  to {
+    bottom: 10px;
+  }
+}
+
+/* button css */
+  .draw-border {
+    box-shadow: inset 0 0 0 4px #000000;
+    color: #000000;
+    transition: color 0.25s 0.0833333333s;
+    position: relative;
+  }
+  .draw-border::before, .draw-border::after {
+    border: 0 solid transparent;
+    box-sizing: border-box;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .draw-border::before {
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+  }
+  .draw-border::after {
+    border-top-width: 4px;
+    border-right-width: 4px;
+  }
+  .draw-border:hover {
+    color: #ff0000;
+  }
+  .draw-border:hover::before, .draw-border:hover::after {
+    border-color: #ff0000;
+    transition: border-color 0s, width 0.25s, height 0.25s;
+    width: 100%;
+    height: 100%;
+  }
+  .draw-border:hover::before {
+    transition-delay: 0s, 0s, 0.25s;
+  }
+  .draw-border:hover::after {
+    transition-delay: 0s, 0.25s, 0s;
+  }
+  .btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    line-height: 1.5;
+    font: 700 1.2rem "Roboto Slab", sans-serif;
+    padding: 1em 2em;
+    letter-spacing: 0.05rem;
+  }
+  .btn:focus {
+    outline: 1px dotted #000000;
+  }
+  /*css untuk slideshow*/
+  .slider{
+    top: 22%;
+    width: 900px;
+    height: 380px;
+    border-radius: 10px;
+  }
+  .slides{
+    width: 300%;
+    height: 500px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    top: 19%;
+  }
+  .slides input{
+    display: none;
+  }
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  .slide img{
+    width: 800px;
+    height: 500px;
+  }
+  .navigation-manual{
+    position: absolute;
+    width: 1450px;
+    margin-top: 600px;
+    display: flex;
+    justify-content: center;
+  }
+  .manual-btn{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  .manual-btn:hover{
+    background: #000000;
+  }
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+
+  /* for automatic navigation */
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+    display: none;
+  }
+  .navigation-auto div{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  #radio1:checked ~.navigation-auto .auto-btn1{
+    background: #000000
+  }
+  #radio2:checked ~.navigation-auto .auto-btn2{
+    background: #000000
+  }
+  #radio3:checked ~.navigation-auto .auto-btn3{
+    background: #000000
+  }
+  #radio4:checked ~.navigation-auto .auto-btn4{
+    background: #000000
+  }
+  /*tulisan japan*/
+  .sliderh1{
+    font-size: 10px;
+    position: relative;
+    top: 220px;
+    left: 790px;
+  }
+  hr{
+    overflow: hidden;
+  }
+  #weather-data {
+    width: 300px;
+    height: 250px;
+    font-family: "Raleway";
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    text-align: center;
+    position: relative;
+    top: 48px;
+    left: 30px;
+  }
+  #weather-data h1{
+    font-size: 25px;
+  }
+  #weather-data p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.1em;
+  }
+  .front-text{
+    position: relative;
+    top: 200px;
+    left: 670px;
+  }
+  .front-text h1{
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+  }
+  .front-text span{
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+  }
+  .front-text1{
+    position: relative;
+    font-size: 30px;
+    top: 200px;
+    left: 670px;
+  }
+  .currency {
+    width: 300px;
+    height: 250px;
+    font-family: "Raleway";
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    text-align: center;
+    position: relative;
+    top: 48px;
+    left: 40px;
+  }
+  .sliderh2{
+    font-size: 12px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    
+  }
+  td, th {
+    padding-left:35px;
+    align-items: center;
+    text-align: center;
+  }
+  table img{
+    width:50px;
+  }
+  .season {
+    width: 400px;
+    height: 250px;
+    font-family: "Raleway";
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    text-align: center;
+    position: relative;
+    top: 48px;
+    left: 50px;
+  }
+  .season table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    margin-left: 40px;
+    margin-top: 25px;
+  }
+  .season td, th {
+    padding-left:33px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 3px;
+  }
+  .time {
+    width: 300px;
+    height: 250px;
+    font-family: "Raleway";
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    text-align: center;
+    position: relative;
+    top: 48px;
+    left: 60px;
+  }
+  .time p{
+    font-size: 17px;
+    font-weight: 600;
+  }
